@@ -239,7 +239,7 @@ class DataGen():
     
     def Pposn(self,particle):
         '''
-        Can't fucking do this since it can't be fucking scaled to fucking Nqubits>fucking1
+        Can't use this since it can't be scaled to Nqubits>1
         '''
         
         posx = np.trace(sigmax().full().dot(particle))
